@@ -15,8 +15,8 @@ services:
 
     php:
         container_name: php-8.3-fpm-alpine
-        build: .
-        #image: unixlinuxgeek/php:8.3-fpm-alpine
+        #build: .
+        image: unixlinuxgeek/php:8.3-fpm-alpine
         working_dir: /src
         restart: always
         volumes:
